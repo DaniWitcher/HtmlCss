@@ -1,0 +1,24 @@
+.sponsor {
+  max-width: 150px;
+  max-height: 120px;
+}
+
+.sponsor__mango {
+  height: 23px;
+  margin-top: 20px;
+}
+
+.sponsor__lewis {
+  height: 55px;
+  margin-top: 7px;
+}
+
+.sponsor__nike {
+  height: 33px;
+  margin-top: 20px;
+}
+
+.sponsor__puma {
+  height: 55px;
+  margin-top: 7px;
+}

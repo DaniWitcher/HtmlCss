@@ -1,35 +1,39 @@
-.awesome-features{
-    font-family: "Exo2Regular";
-    box-sizing: border-box;
-    width: 50%;
-    margin-left: 25%;
-    margin-top : 10%;
+.awesome-features {
+  font-family: "Exo2Regular";
+  background-image: url(../img/bg/bgfeatures-coffee.png),
+    url(../img/bg/bgfeatures-earphones.png), url(../img/bg/bgfeatures-pens.png);
+  background-position: 95% 100%, 95% 0, 5% 0;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-color: #f6f5f3;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 160px;
+  position: relative;
 }
 
-.awesome-features__pink-text{
-    color: #ff6d6d;
-    font-weight: bold;
-    letter-spacing: 2px;
-    text-align: center;
-    margin-bottom: 15px;
+.awesome-features__pink-text {
+  color: #ff6d6d;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 150px;
 }
 
-.awesome-features__bold-text{
-    color:black;
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-size: 30pt;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 50px;
+.awesome-features__bold-text {
+  color: black;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 30pt;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 70px;
 }
 
-.awesome-features__feature{
-    display: flex;
-    justify-content: space-between;
+.awesome-features__features {
+  display: flex;
+  justify-content: space-between;
+  max-width: 50%;
 }
-
-@font-face {
-    font-family: "Exo2Regular";
-    src: url(../fonts/Exo2Regular.ttf);
-}   

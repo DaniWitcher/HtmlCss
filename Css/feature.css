@@ -1,29 +1,26 @@
-.feature{
-    display: flex;
-    flex-direction: column;
-    align-items: center ;
-    max-width: 30%;
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 30%;
 }
 
-.feature__icon{
-    margin-bottom: 15px;
+.feature__icon {
+  margin-bottom: 15px;
+  display: block;
 }
 
-.feature__bold-text{
-    color:black;
-    letter-spacing: 1px;
-    font-weight: bold;
-    font-size: 23px;
-    margin-bottom: 10px;
+.feature__bold-text {
+  display: block;
+  color: black;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 23px;
+  margin-bottom: 10px;
 }
 
-.feature__normal-text{
-    color:black;
-    text-align: center;
-    max-width: 90%;
+.feature__normal-text {
+  color: black;
+  text-align: center;
+  max-width: 90%;
 }
-
-@font-face {
-    font-family: "Exo2Bold";
-    src: url(../fonts/Exo2Bold.ttf);
-}  
