@@ -69,33 +69,33 @@
   line-height: 25px;
 }
 
-.text-box__browser-sizing{
+.text-box__browser-sizing {
   align-items: center;
-  width:50%;
+  width: 50%;
   margin-bottom: 0;
   padding-bottom: 0;
 }
 
-.text-box__pink-text__browser-sizing{
+.text-box__pink-text__browser-sizing {
   text-align: center;
-  width:100%;
+  width: 100%;
   font-size: 17px;
   margin-left: 0;
   margin-top: 150px;
 }
 
-.text-box__bold-text__browser-sizing{
+.text-box__bold-text__browser-sizing {
   text-align: center;
-  font-size : 35px;
+  font-size: 35px;
   font-weight: bold;
-  font-family:"Exo2Regular" ;
+  font-family: "Exo2Regular";
   width: 60%;
   margin-left: 200px;
   letter-spacing: 1px;
   margin-bottom: 30px;
 }
 
-.text-box__normal-text__browser-sizing{
+.text-box__normal-text__browser-sizing {
   text-align: center;
   width: 60%;
   margin-left: 30px;

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>First part of Html/Css</title>
-    <link rel="stylesheet" href="./css/IndexStyle.css" />
+    <link rel="stylesheet" href="./css/Index-style.css" />
     <link rel="stylesheet" href="./css/text-box.css" />
     <link rel="stylesheet" href="./css/awesome-features.css" />
     <link rel="stylesheet" href="./css/feature.css" />
@@ -14,9 +14,21 @@
     <link rel="stylesheet" href="./css/employee.css" />
     <link rel="stylesheet" href="./css/sponsor.css" />
     <link rel="stylesheet" href="./css/browser-text.css" />
-    <link rel="stylesheet" href="./css/login-page.css">
+    <link rel="stylesheet" href="./css/login-page.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
+    <header class="header">
+      <h1 class = "header__main-text">There is no other platforms for you as like</h1>
+      <input class = "header__main-button" type="submit" value="TRY NOW" >
+      <p class = "header__text">* No need to add cards details</p>
+    </header>
+
     <div class="text-box">
       <div>
         <h3 class="text-box__pink-text">NEW DESIGN</h3>
@@ -215,10 +227,109 @@
       </div>
     </div>
 
-    <div class = "login-page">
-      <div class = "login-page__pink-text">NEW DESIGN</div>
-      <div class = "login-page__white-text">Over 1000 designers are using ...</div>
-      
+    <div class="login-page">
+      <div class="login-page__pink-text">NEW DESIGN</div>
+      <div class="login-page__white-text">
+        Over 1000 designers are using ...
+      </div>
+
+      <div class="login-page__login-box">
+        <input
+          class="login-page__login-input"
+          type="text"
+          placeholder="FULL NAME"
+        />
+        <input
+          class="login-page__login-input"
+          type="text"
+          placeholder="YOUR EMAIL"
+        />
+        <input
+          class="login-page__login-input"
+          type="password"
+          placeholder="PASSWORD"
+        />
+        <div class="login-page__login-submit">
+          <div class="login-page__login-submit__img-text">
+            <img
+              class="login-page__login-submit__img"
+              src="img/arrow.png"
+              alt=""
+            />
+            <p>30 days free trial for all.</p>
+          </div>
+          <input
+            class="login-page__login-button"
+            type="submit"
+            value="TRY NOW"
+          />
+        </div>
+      </div>
+
+      <div class="login-page__text-link">
+        <p>
+          By Signing up you agree to our
+          <a class="login-page__link" href="#">terms &amp; Services.</a>
+        </p>
+      </div>
     </div>
+
+    <footer class="footer">
+      <div class="footer__contacts">
+        <img class="footer__contacts__picture" src="./img/logo.png" alt="" />
+        <p class="footer__contacts__text">
+          Aenean lacinia bibendum nulla sed <br />
+          consectetur.Aenean eu leo quam.<br />
+          USA & CAN: 1-888-123-4567 <br />
+          Address: 34 Brokel Rd. NY
+        </p>
+      </div>
+      <div class="footer__support">
+        <h3 class="footer__support__main-text">Support</h3>
+        <a class="footer__support__link" href="#">Help Center</a>
+        <a class="footer__support__link" href="#">Get Started</a>
+        <a class="footer__support__link" href="#">Contact US</a>
+      </div>
+      <div class="footer__support">
+        <h3 class="footer__support__main-text">About US</h3>
+        <a class="footer__support__link" href="#">About US</a>
+        <a class="footer__support__link" href="#">Terms of Use</a>
+        <a class="footer__support__link" href="#">Privacy Policy</a>
+      </div>
+
+      <div class="footer__newsletter">
+        <h3 class="footer__support__main-text">Get Newsletter</h3>
+        <div class="footer__newsletter__mail">
+          <input
+            class="footer__newsletter__mail-input"
+            type="text"
+            placeholder="EMAIL"
+          />
+          <input
+            class="footer__newsletter__mail-button"
+            type="submit"
+            value=""
+          />
+        </div>
+
+        <div class="footer__newsletter__icons">
+          <a class="footer__newsletter__icons__link" href="#">
+            <i class="fa fa-2x fa-instagram"></i>
+          </a>
+
+          <a class="footer__newsletter__icons__link" href="#">
+            <i class="fa fa-2x fa-google"></i>
+          </a>
+
+          <a class="footer__newsletter__icons__link" href="#">
+            <i class="fa fa-2x fa-twitter"></i>
+          </a>
+
+          <a class="footer__newsletter__icons__link" href="#">
+            <i class="fa fa-2x fa-facebook"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

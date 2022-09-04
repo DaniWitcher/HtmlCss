@@ -27,3 +27,8 @@ a:hover {
   font-family: "Exo2Bold";
   src: url(../fonts/Exo2Bold.ttf);
 }
+
+@font-face {
+  font-family: "Exo2Thin";
+  src: url(../fonts/Exo2Thin.ttf);
+}
