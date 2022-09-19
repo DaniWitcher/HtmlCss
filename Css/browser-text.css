@@ -17,3 +17,20 @@
 .browser-text__browser {
   margin: 0;
 }
+
+@media screen and (max-width: 800px) {
+  .browser-text__browser {
+    max-width: 500px;
+    margin-left: 0;
+  }
+
+  .browser-text__browser-block {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .browser-text__browser {
+    max-width: 300px;
+  }
+}

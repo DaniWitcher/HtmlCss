@@ -1,7 +1,7 @@
 .header {
   background-image: url(../img/bg/bgindex.jpg);
   width: 99vw;
-  height: 51vw;
+  height: 100vw;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0;
@@ -41,8 +41,64 @@
   box-shadow: 1px 1px 10px red;
 }
 
-.header__text{
-    margin: 1% 0 0 45%;
-    font-family: "Exo2Regular";
-    font-size: 14px;
+.header__text {
+  margin: 1% 0 0 45%;
+  font-family: "Exo2Regular";
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1629px) {
+  .header {
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .header__main-button {
+    margin: 5% 0 5% 40%;
+  }
+
+  .header__text {
+    margin: 0 0 0 40%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .header__main-text {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .header__main-button {
+    margin: 5% 0 5% 35%;
+  }
+
+  .header__text {
+    margin: 0 0 0 35%;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .header__main-text {
+    font-size: 30px;
+  }
+
+  .header__main-button {
+    margin: 5% 0 5% 30%;
+  }
+
+  .header__text {
+    margin: 0 0 0 30%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header__main-button {
+    margin: 5% 0 5% 25%;
+  }
+
+  .header__text {
+    margin: 0 0 0 25%;
+  }
 }

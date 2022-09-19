@@ -27,3 +27,14 @@
   font-family: "Exo2Medium";
   text-align: center;
 }
+
+
+@media screen and (max-width: 640px){
+  .employee__description{
+    font-size: 10px;
+  }
+  
+  .employee__name{
+    font-size: 15px;
+  }
+}

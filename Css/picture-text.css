@@ -21,3 +21,18 @@
   margin-left: 1%;
   width: 110%;
 }
+
+@media screen and (max-width: 775px) {
+  .picture-text__picture {
+    max-width: 100%;
+    margin-left: 55%;
+  }
+
+  .picture-text__picture-block {
+    width: 40%;
+  }
+
+  .picture-text {
+    flex-direction: column;
+  }
+}

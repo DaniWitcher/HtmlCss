@@ -100,3 +100,43 @@
   color: #ffffff;
   font-family: "Exo2Medium";
 }
+
+@media screen and (max-width: 1255px) {
+  .login-page__login-input {
+    width: 150px;
+  }
+
+  .login-page__login-button {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 717px) {
+  .login-page__login-submit__img-text {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .login-page {
+    height: 600px;
+  }
+
+  .login-page__login-box {
+    flex-direction: column;
+  }
+
+  .login-page__login-input {
+    width: 220px;
+    margin-bottom: 5px;
+    margin-top: 0;
+  }
+
+  .login-page__login-button {
+    width: 220px;
+  }
+
+  .login-page__white-text {
+    font-size: 25px;
+  }
+}

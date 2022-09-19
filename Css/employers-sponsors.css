@@ -26,3 +26,15 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 1013px) {
+  .employers-sponsors__sponsors {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .employers-sponsors__employers {
+    width: 80%;
+  }
+}
