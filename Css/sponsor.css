@@ -1,0 +1,63 @@
+.sponsor {
+  max-width: 150px;
+  max-height: 120px;
+}
+
+.sponsor__mango {
+  height: 23px;
+  margin-top: 20px;
+}
+
+.sponsor__lewis {
+  height: 55px;
+  margin-top: 7px;
+}
+
+.sponsor__nike {
+  height: 33px;
+  margin-top: 20px;
+}
+
+.sponsor__puma {
+  height: 55px;
+  margin-top: 7px;
+}
+
+@media screen and (max-width: 640px) {
+  .sponsor {
+    max-width: 70px;
+    max-height: 70px;
+  }
+
+  .sponsor__mango {
+    height: 23px;
+    margin-top: 20px;
+  }
+
+  .sponsor__lewis {
+    height: 45px;
+    margin-top: 7px;
+  }
+
+  .sponsor__nike {
+    height: 33px;
+    margin-top: 20px;
+  }
+
+  .sponsor__puma {
+    height: 45px;
+    margin-top: 7px;
+  }
+
+  .sponsor__converse {
+    height: 45px;
+  }
+}
+
+
+@media screen and (max-width: 400px){
+  .sponsor {
+    max-width: 50px;
+    max-height: 50px;
+  }
+}

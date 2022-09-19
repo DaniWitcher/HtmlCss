@@ -1,0 +1,36 @@
+.browser-text {
+  width: auto 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 500px;
+  background-image: none;
+  padding: 0;
+  margin: 0;
+}
+
+.browser-text__browser-block {
+  margin-left: 30px;
+  margin-top: -60px;
+}
+
+.browser-text__browser {
+  margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .browser-text__browser {
+    max-width: 500px;
+    margin-left: 0;
+  }
+
+  .browser-text__browser-block {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .browser-text__browser {
+    max-width: 300px;
+  }
+}

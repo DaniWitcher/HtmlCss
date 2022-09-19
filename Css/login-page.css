@@ -1,0 +1,142 @@
+.login-page {
+  width: auto 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  background-color: #323969;
+  margin-top: -4px;
+}
+
+.login-page__pink-text {
+  margin-top: 7%;
+  color: #ff6d6d;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: "Exo2Medium";
+  letter-spacing: 1px;
+  font-size: 17px;
+  margin-bottom: 14px;
+}
+
+.login-page__white-text {
+  color: white;
+  font-size: 40px;
+  font-family: "Exo2Medium";
+  margin-bottom: 50px;
+}
+.login-page__login-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.login-page__login-input {
+  margin: 60px 10px 20px 10px;
+  width: 270px;
+  height: 50px;
+  padding: 10px 30px;
+  box-sizing: border-box;
+  background-color: #474d78;
+  border: 2px solid #999cb4;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: "Exo2Medium";
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.login-page__login-input:focus {
+  outline: none;
+  border: 2px solid #ff6d6d;
+}
+
+.login-page__login-button {
+  margin: 0 10px 20px 10px;
+  width: 270px;
+  height: 50px;
+  padding: 10px 30px;
+  box-sizing: border-box;
+  background-color: #ff6d6d;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: "Exo2Medium";
+  font-size: 16px;
+  letter-spacing: 1px;
+  border: none;
+  cursor: pointer;
+}
+
+.login-page__login-submit__img-text {
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+  font-family: "Exo2Medium";
+  margin-bottom: 10px;
+  opacity: 0;
+  transition: 0.7s;
+}
+
+.login-page__login-submit__img-text:hover {
+  opacity: 100;
+}
+
+.login-page__login-submit__img {
+  height: 35px;
+  margin-top: 15px;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+.login-page__text-link {
+  margin-top: 10px;
+  color: #ffffff;
+  font-family: "Exo2Medium";
+}
+
+.login-page__link {
+  text-decoration: underline;
+  color: #ffffff;
+  font-family: "Exo2Medium";
+}
+
+@media screen and (max-width: 1255px) {
+  .login-page__login-input {
+    width: 150px;
+  }
+
+  .login-page__login-button {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 717px) {
+  .login-page__login-submit__img-text {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .login-page {
+    height: 600px;
+  }
+
+  .login-page__login-box {
+    flex-direction: column;
+  }
+
+  .login-page__login-input {
+    width: 220px;
+    margin-bottom: 5px;
+    margin-top: 0;
+  }
+
+  .login-page__login-button {
+    width: 220px;
+  }
+
+  .login-page__white-text {
+    font-size: 25px;
+  }
+}

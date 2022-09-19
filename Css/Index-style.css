@@ -1,0 +1,34 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  transition: 0.7s linear;
+}
+
+a:hover {
+  color: #ff6d6d;
+}
+
+@font-face {
+  font-family: "Exo2Medium";
+  src: url(../fonts/Exo2Medium.ttf);
+}
+
+@font-face {
+  font-family: "Exo2Regular";
+  src: url(../fonts/Exo2Regular.ttf);
+}
+
+@font-face {
+  font-family: "Exo2Bold";
+  src: url(../fonts/Exo2Bold.ttf);
+}
+
+@font-face {
+  font-family: "Exo2Thin";
+  src: url(../fonts/Exo2Thin.ttf);
+}

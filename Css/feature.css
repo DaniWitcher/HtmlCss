@@ -1,0 +1,38 @@
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 30%;
+}
+
+.feature__icon {
+  margin-bottom: 15px;
+  display: block;
+}
+
+.feature__bold-text {
+  display: block;
+  color: black;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 23px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.feature__normal-text {
+  color: black;
+  text-align: center;
+  max-width: 90%;
+}
+
+@media screen and (max-width: 1013px) {
+  .feature__bold-text {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .feature__normal-text {
+    font-size: 10px;
+  }
+}
